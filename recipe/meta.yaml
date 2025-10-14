@@ -1,5 +1,5 @@
 {% set name = "parallel-ssh" %}
-{% set version = "2.14.0" %}
+{% set version = "2.16.0.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e4d21a02feb4cfebf58692448d71c0cd14799c40881c5bd6d75aa7d1da4fd0d5
+  sha256: c355eb965c8698e7ec8e7fd39fbe1b0d6d35debc2de603ebb1b397a9bc30d61c
 
 build:
   noarch: python
