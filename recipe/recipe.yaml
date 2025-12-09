@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: parallel-ssh
-  version: 2.16.0
+  version: "2.16.0.post1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 435c0eeb2772b22509a5d7c56e111709cfe64aadae526cb502ffaef55ca21998
+  sha256: c355eb965c8698e7ec8e7fd39fbe1b0d6d35debc2de603ebb1b397a9bc30d61c
 
 build:
   number: 0
